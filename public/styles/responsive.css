@@ -1,0 +1,177 @@
+@media (max-width: 1200px) {
+    #page-home {
+        background-size: 70vh;
+        background-position-x: 40vw;
+        background-position-y: 350px;
+    }
+}
+@media (max-width: 1000px) {
+    #page-home main {
+        margin-top: 10vw;
+        justify-content: flex-start;
+    }
+    #page-home {
+        background-position-x: 100vw;
+    }
+
+    #page-home .content {
+        text-align: center;
+        align-items: center;
+    }
+
+    #page-home header a {
+        left: 50%;
+        bottom: 48px;
+        position: absolute;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-home main h1 {
+        font-size: calc(min(50px, 12vw));
+    }
+
+    #page-home main p {
+        font-size: calc(min(24px, 5vw));
+        line-height: calc(min(38px, 8vw));
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 250px;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+    #modal .header h1 {
+        font-size: calc(min(35px, 8vw));
+    }
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 750px) {
+    #page-home {
+        background-position-y: 200px;
+    }
+}
+
+@media (max-width: 750px) {
+    form legend {
+        width: fit-content;
+        margin: 0px auto 40px;
+        flex-direction: column;
+    }
+    .items-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    form button {
+        width: 220px;
+    }
+    form {
+        padding: 10vw 5vw;
+    }
+    .form-modal {
+        padding: 0;
+    }
+    form h1 {
+        text-align: center;
+    }
+    form fieldset {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    #modal .content {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 420px) {
+    #page-home main a {
+        height: 65px;
+    }
+    #page-home main a span {
+        height: 65px;
+        width: calc(min(50px, 14vw));
+    }
+    #page-home main a strong {
+        font-size: calc(min(16px, 5vw));
+    }
+    #page-home header a {
+        bottom: 30px;
+    }
+    .items-grid {
+        grid-template-columns: 1fr;
+    }
+    form input, form select {
+        padding: 13px 15px;
+    }
+    #modal form button {
+        height: 65px;
+        width: calc(min(50px, 14vw));
+    }
+    main h4 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 385px) {
+    #page-home header {
+        margin-top: 50px;
+    }
+    #page-search-results header {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    #page-create-point header {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    #page-create-point header a {
+        margin-top: 25px;
+    }   
+    #page-home main {
+        margin-top: 20px;
+    }
+    #page-home main p {
+        margin-top: 20px;
+    }
+    #page-home main a {
+        margin-top: 20px;
+    }
+    #page-search-results header a {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 330px) {
+    #page-home main a {
+        height: 55px;
+    }
+    #page-home main a span {
+        height: 55px;
+    }
+    #modal form button {
+        height: 55px;
+    }
+    #modal form input {
+        padding: 16px 5px 16px 8px;
+    }
+}
