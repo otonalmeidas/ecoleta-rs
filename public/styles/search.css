@@ -35,8 +35,9 @@ body::after {
     height: 24px;
     display: flex;
     margin-right: 16px;
-    background-image: url('../assets/arrow-left.svg');
+    background-image: url('/assets/arrow-left.svg');
 }
+
 
 main {
     margin: 48px 0;

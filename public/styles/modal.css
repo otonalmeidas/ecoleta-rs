@@ -1,0 +1,87 @@
+#modal {
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    transition: 400ms;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E0A14ef;
+}
+
+#modal.hide {
+    display: none;
+}
+
+#modal .content {
+    width: 420px;
+    color: #FFF;
+}
+
+#modal .header {
+    display: flex;
+    margin-bottom: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#modal .header a {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    font-size: 0.01px;
+    background-image: url("/assets/ecoleta/x.svg");
+}
+
+#modal .header h1 {
+    color: #FFF;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#modal form label {
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+#modal form .field {
+    display: flex;
+}
+
+#modal form input {
+    flex: 1;
+    border: 0;
+    font-size: 16px;
+    color: #6C6C80;
+    border-radius: 8px 0 0 8px;
+    background-color: #F0F0F5;
+    padding: 16px 10px 16px 15px;
+}
+
+#modal form button {
+    border: 0;
+    width: 72px;
+    height: 72px;
+    cursor: pointer;
+    transition: 400ms;
+    border-radius: 0 8px 8px 0;
+    background-color: var(--primary-color);
+}
+
+#modal form button:hover {
+    background-color: #6CB9E8;
+}
+
+#modal.point .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#modal.point h1 { 
+    color: #FFF;
+    margin-top: 32px;
+}

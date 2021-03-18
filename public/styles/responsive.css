@@ -133,6 +133,12 @@
 }
 
 @media (max-width: 385px) {
+    .c-indicator__bar {
+        padding: 7px 14px;
+    }
+    .c-indicator__link {
+        font-size: 8px;
+    }
     #page-home header {
         margin-top: 50px;
     }

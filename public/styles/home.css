@@ -1,6 +1,6 @@
 #page-home {
     height: 100vh;
-    background: url('../assets/home-background.svg') no-repeat;
+    background: url('/assets/home.svg') no-repeat;
     background-position: 35vw bottom;
 }
 
@@ -15,7 +15,7 @@
 
 #page-home header {
     display: flex;
-    margin-top: 48px;
+    margin-top: 60px;
     align-items: center;
     justify-content: space-between;
 }
@@ -31,8 +31,8 @@
     width: 20px;
     height: 20px;
     display: flex;
-    margin-right: 16px; 
-    background-image: url('../assets/log-in.svg');
+    margin-right: 16px;
+    background-image: url('/assets/log-in.svg');
 }
 
 #page-home main {
@@ -84,7 +84,7 @@
     content: "";
     width: 20px;
     height: 20px;
-    background-image: url('../assets/search.svg');
+    background-image: url('/assets/search.svg');
 }
 
 #page-home main a strong {
